@@ -1,0 +1,10 @@
+  language: python
+  python:
+    - 3.6
+    - nightly
+  script:
+    - pytest
+  deploy:
+    provider: script
+    script: scripts/deploy.py
+   
