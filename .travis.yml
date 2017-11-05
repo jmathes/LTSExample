@@ -4,3 +4,6 @@
     - nightly
   script:
     - pytest
+  deploy:
+    provider: script
+    script: scripts/deploy.py
