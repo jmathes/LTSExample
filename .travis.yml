@@ -7,4 +7,5 @@
   deploy:
     provider: script
     script: scripts/deploy.py
-    all-branches: true
+    on:
+      all-branches: true
